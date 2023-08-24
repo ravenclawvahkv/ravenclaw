@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+.alert_img{
+
+margin-left: 50%;
+margin-top: 15%;
+}
+</style>
+</head>
+<body>
+
+
+<div class="alert_img">
+    <img src="assets/img/alert.png" alt="img" style="width: 70px; height: 70px";>
+</div>
+<br>
+<div class="alert">
+     <a href="login.html">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+   </a>
+    
+  <strong>Alert!</strong> Click Accept risk to allow IRADERS to help you!!!
+    <a href="public map.html">
+      <button type="submit">Accept risk</button></a>
+</div>
+
+</body>
+</html>
